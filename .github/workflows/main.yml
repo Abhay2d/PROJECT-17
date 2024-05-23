@@ -12,8 +12,6 @@ from kivy.lang import Builder
 
 SIZE = 40
 BACKGROUND_COLOR = (110, 110, 5)
-
-class Apple:
     def __init__(self, parent_screen):
         self.parent_screen = parent_screen
         self.image = pygame.image.load("resources/apple.jpg").convert()
